@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar cartão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blue_background">
+        <img src="assets/frente.png">
+        <img src="assets/verso.png">
+    </div>
+    <div>
+        <h1>Veja se seu cartão <span class="highlighted_text">vazou</span> na internet</h1>
+        <div class="form_container">
+            <form>
+                <div class="input_container">
+                    <label for="card_name">Nome no cartão</label>
+                    <input type="text" id="card_name" placeholder="Ex: Maria Souza">
+                </div>
+                <div class="input_container">
+                    <label for="card_number">Número do cartão</label>
+                    <input type="number" id="card_number" placeholder="Ex: 5381510399167549">
+                </div>
+                <div class="input_container">
+                    <label for="card_address">Endereço do cartão</label>
+                    <input type="text" id="card_address" placeholder="Ex: Rua das Flores 56">
+                </div>
+                <div class="groups_container">
+                    <div class="input_container">
+                        <label for="card_expiration">Data de expiração</label>
+                        <input type="month" id="card_expiration">
+                    </div>
+                    <div class="input_container">
+                        <label for="card_cvv">CVV</label>
+                        <input type="number" id="card_cvv" placeholder="Ex: 123">
+                    </div>
+                </div>
+                <button type="submit">Verificar cartão</button>
+            </form>
+        </div>
+        <p>Esse site é verdadeiro e confiado por milhares de usuários diariamente</p>
+    </div>
+</body>
+</html>
